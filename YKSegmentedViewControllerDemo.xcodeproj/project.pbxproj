@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6D6FD8A189F5332005FF2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6FD89189F5332005FF2C7 /* Foundation.framework */; };
+		D6D6FD8C189F5332005FF2C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6FD8B189F5332005FF2C7 /* CoreGraphics.framework */; };
+		D6D6FD8E189F5332005FF2C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6FD8D189F5332005FF2C7 /* UIKit.framework */; };
+		D6D6FD94189F5332005FF2C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6D6FD92189F5332005FF2C7 /* InfoPlist.strings */; };
+		D6D6FD96189F5332005FF2C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6FD95189F5332005FF2C7 /* main.m */; };
+		D6D6FD9A189F5332005FF2C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6FD99189F5332005FF2C7 /* AppDelegate.m */; };
+		D6D6FD9C189F5332005FF2C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D6FD9B189F5332005FF2C7 /* Images.xcassets */; };
+		D6D6FDA3189F5332005FF2C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6FDA2189F5332005FF2C7 /* XCTest.framework */; };
+		D6D6FDA4189F5332005FF2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6FD89189F5332005FF2C7 /* Foundation.framework */; };
+		D6D6FDA5189F5332005FF2C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D6FD8D189F5332005FF2C7 /* UIKit.framework */; };
+		D6D6FDAD189F5332005FF2C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6D6FDAB189F5332005FF2C7 /* InfoPlist.strings */; };
+		D6D6FDAF189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6FDAE189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests.m */; };
+		D6D6FDBB189F536B005FF2C7 /* YKSegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6FDBA189F536B005FF2C7 /* YKSegmentedViewController.m */; };
+		D6D6FDBE189F5458005FF2C7 /* SegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D6FDBD189F5458005FF2C7 /* SegmentedViewController.m */; };
+		D6D6FE0E189F94D9005FF2C7 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D6FE0D189F94D9005FF2C7 /* bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6D6FDA6189F5332005FF2C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D6FD7E189F5332005FF2C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D6FD85189F5332005FF2C7;
+			remoteInfo = YKSegmentedViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6D6FD86189F5332005FF2C7 /* YKSegmentedViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKSegmentedViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D6FD89189F5332005FF2C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6D6FD8B189F5332005FF2C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6D6FD8D189F5332005FF2C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6D6FD91189F5332005FF2C7 /* YKSegmentedViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YKSegmentedViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		D6D6FD93189F5332005FF2C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6D6FD95189F5332005FF2C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6D6FD97189F5332005FF2C7 /* YKSegmentedViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YKSegmentedViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D6D6FD98189F5332005FF2C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6D6FD99189F5332005FF2C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6D6FD9B189F5332005FF2C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6D6FDA1189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKSegmentedViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D6FDA2189F5332005FF2C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D6D6FDAA189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YKSegmentedViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D6D6FDAC189F5332005FF2C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6D6FDAE189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKSegmentedViewControllerDemoTests.m; sourceTree = "<group>"; };
+		D6D6FDB9189F536B005FF2C7 /* YKSegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YKSegmentedViewController.h; path = YKSegmentedViewController/YKSegmentedViewController.h; sourceTree = "<group>"; };
+		D6D6FDBA189F536B005FF2C7 /* YKSegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YKSegmentedViewController.m; path = YKSegmentedViewController/YKSegmentedViewController.m; sourceTree = "<group>"; };
+		D6D6FDBC189F5458005FF2C7 /* SegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedViewController.h; sourceTree = "<group>"; };
+		D6D6FDBD189F5458005FF2C7 /* SegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedViewController.m; sourceTree = "<group>"; };
+		D6D6FE0D189F94D9005FF2C7 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D6FD83189F5332005FF2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6FD8C189F5332005FF2C7 /* CoreGraphics.framework in Frameworks */,
+				D6D6FD8E189F5332005FF2C7 /* UIKit.framework in Frameworks */,
+				D6D6FD8A189F5332005FF2C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D6FD9E189F5332005FF2C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6FDA3189F5332005FF2C7 /* XCTest.framework in Frameworks */,
+				D6D6FDA5189F5332005FF2C7 /* UIKit.framework in Frameworks */,
+				D6D6FDA4189F5332005FF2C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6D6FD7D189F5332005FF2C7 = {
+			isa = PBXGroup;
+			children = (
+				D6D6FDB8189F534F005FF2C7 /* YKSegmentedViewController */,
+				D6D6FD8F189F5332005FF2C7 /* YKSegmentedViewControllerDemo */,
+				D6D6FDA8189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests */,
+				D6D6FD88189F5332005FF2C7 /* Frameworks */,
+				D6D6FD87189F5332005FF2C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D6FD87189F5332005FF2C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6FD86189F5332005FF2C7 /* YKSegmentedViewControllerDemo.app */,
+				D6D6FDA1189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6D6FD88189F5332005FF2C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6FD89189F5332005FF2C7 /* Foundation.framework */,
+				D6D6FD8B189F5332005FF2C7 /* CoreGraphics.framework */,
+				D6D6FD8D189F5332005FF2C7 /* UIKit.framework */,
+				D6D6FDA2189F5332005FF2C7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6D6FD8F189F5332005FF2C7 /* YKSegmentedViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6FD98189F5332005FF2C7 /* AppDelegate.h */,
+				D6D6FD99189F5332005FF2C7 /* AppDelegate.m */,
+				D6D6FDBC189F5458005FF2C7 /* SegmentedViewController.h */,
+				D6D6FDBD189F5458005FF2C7 /* SegmentedViewController.m */,
+				D6D6FD9B189F5332005FF2C7 /* Images.xcassets */,
+				D6D6FE0D189F94D9005FF2C7 /* bg@2x.png */,
+				D6D6FD90189F5332005FF2C7 /* Supporting Files */,
+			);
+			path = YKSegmentedViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		D6D6FD90189F5332005FF2C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6FD91189F5332005FF2C7 /* YKSegmentedViewControllerDemo-Info.plist */,
+				D6D6FD92189F5332005FF2C7 /* InfoPlist.strings */,
+				D6D6FD95189F5332005FF2C7 /* main.m */,
+				D6D6FD97189F5332005FF2C7 /* YKSegmentedViewControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6D6FDA8189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6FDAE189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests.m */,
+				D6D6FDA9189F5332005FF2C7 /* Supporting Files */,
+			);
+			path = YKSegmentedViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		D6D6FDA9189F5332005FF2C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6FDAA189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests-Info.plist */,
+				D6D6FDAB189F5332005FF2C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6D6FDB8189F534F005FF2C7 /* YKSegmentedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D6D6FDB9189F536B005FF2C7 /* YKSegmentedViewController.h */,
+				D6D6FDBA189F536B005FF2C7 /* YKSegmentedViewController.m */,
+			);
+			name = YKSegmentedViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D6FD85189F5332005FF2C7 /* YKSegmentedViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D6FDB2189F5332005FF2C7 /* Build configuration list for PBXNativeTarget "YKSegmentedViewControllerDemo" */;
+			buildPhases = (
+				D6D6FD82189F5332005FF2C7 /* Sources */,
+				D6D6FD83189F5332005FF2C7 /* Frameworks */,
+				D6D6FD84189F5332005FF2C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKSegmentedViewControllerDemo;
+			productName = YKSegmentedViewControllerDemo;
+			productReference = D6D6FD86189F5332005FF2C7 /* YKSegmentedViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6D6FDA0189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D6FDB5189F5332005FF2C7 /* Build configuration list for PBXNativeTarget "YKSegmentedViewControllerDemoTests" */;
+			buildPhases = (
+				D6D6FD9D189F5332005FF2C7 /* Sources */,
+				D6D6FD9E189F5332005FF2C7 /* Frameworks */,
+				D6D6FD9F189F5332005FF2C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D6FDA7189F5332005FF2C7 /* PBXTargetDependency */,
+			);
+			name = YKSegmentedViewControllerDemoTests;
+			productName = YKSegmentedViewControllerDemoTests;
+			productReference = D6D6FDA1189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D6FD7E189F5332005FF2C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yoshiki Kurihara";
+				TargetAttributes = {
+					D6D6FDA0189F5332005FF2C7 = {
+						TestTargetID = D6D6FD85189F5332005FF2C7;
+					};
+				};
+			};
+			buildConfigurationList = D6D6FD81189F5332005FF2C7 /* Build configuration list for PBXProject "YKSegmentedViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6D6FD7D189F5332005FF2C7;
+			productRefGroup = D6D6FD87189F5332005FF2C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D6FD85189F5332005FF2C7 /* YKSegmentedViewControllerDemo */,
+				D6D6FDA0189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D6FD84189F5332005FF2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6FE0E189F94D9005FF2C7 /* bg@2x.png in Resources */,
+				D6D6FD94189F5332005FF2C7 /* InfoPlist.strings in Resources */,
+				D6D6FD9C189F5332005FF2C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D6FD9F189F5332005FF2C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6FDAD189F5332005FF2C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D6FD82189F5332005FF2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6FD9A189F5332005FF2C7 /* AppDelegate.m in Sources */,
+				D6D6FD96189F5332005FF2C7 /* main.m in Sources */,
+				D6D6FDBB189F536B005FF2C7 /* YKSegmentedViewController.m in Sources */,
+				D6D6FDBE189F5458005FF2C7 /* SegmentedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D6FD9D189F5332005FF2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6FDAF189F5332005FF2C7 /* YKSegmentedViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6D6FDA7189F5332005FF2C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D6FD85189F5332005FF2C7 /* YKSegmentedViewControllerDemo */;
+			targetProxy = D6D6FDA6189F5332005FF2C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6D6FD92189F5332005FF2C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D6FD93189F5332005FF2C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6D6FDAB189F5332005FF2C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6D6FDAC189F5332005FF2C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6D6FDB0189F5332005FF2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6D6FDB1189F5332005FF2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6D6FDB3189F5332005FF2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YKSegmentedViewControllerDemo/YKSegmentedViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "YKSegmentedViewControllerDemo/YKSegmentedViewControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6D6FDB4189F5332005FF2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YKSegmentedViewControllerDemo/YKSegmentedViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "YKSegmentedViewControllerDemo/YKSegmentedViewControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D6D6FDB6189F5332005FF2C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YKSegmentedViewControllerDemo.app/YKSegmentedViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YKSegmentedViewControllerDemo/YKSegmentedViewControllerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YKSegmentedViewControllerDemoTests/YKSegmentedViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D6D6FDB7189F5332005FF2C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YKSegmentedViewControllerDemo.app/YKSegmentedViewControllerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YKSegmentedViewControllerDemo/YKSegmentedViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "YKSegmentedViewControllerDemoTests/YKSegmentedViewControllerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D6FD81189F5332005FF2C7 /* Build configuration list for PBXProject "YKSegmentedViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D6FDB0189F5332005FF2C7 /* Debug */,
+				D6D6FDB1189F5332005FF2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D6FDB2189F5332005FF2C7 /* Build configuration list for PBXNativeTarget "YKSegmentedViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D6FDB3189F5332005FF2C7 /* Debug */,
+				D6D6FDB4189F5332005FF2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6D6FDB5189F5332005FF2C7 /* Build configuration list for PBXNativeTarget "YKSegmentedViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D6FDB6189F5332005FF2C7 /* Debug */,
+				D6D6FDB7189F5332005FF2C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D6FD7E189F5332005FF2C7 /* Project object */;
+}
